@@ -13,7 +13,7 @@
 body {
     background-image: url(../Background-image.jpg);
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: cover;
     background-position: center;
     padding: 0;
 }
@@ -46,22 +46,30 @@ footer {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 
   h1 {
     margin: 1%;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 4rem;
+    font-size: 8rem;
     color: #4ECCA3;
   }
 
+  body {
+    background-image: url(../Background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 4000px;
+    background-position: right;
+    padding: 0;
+}
+
   img {
-    width: 40%;
+    width: 340px;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 4rem;
     color: #BDF5F4;
     font-family: 'Indie Flower', cursive;
   }
